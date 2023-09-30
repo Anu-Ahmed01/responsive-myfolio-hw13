@@ -1,0 +1,152 @@
+/* Common css start  */
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+
+}
+ a{
+    text-decoration: none;
+ }
+/* Common css End  */
+
+/* nav section start */
+nav{
+    background-color: #02918c;
+    
+}
+#primary_nav #menu ul a{
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    display: inline-block;
+    padding: 14px 22px;
+}
+/* nav section end *//* ======common css start ====*/
+
+
+
+
+
+
+/* 3333333333 banner section start 3333333333333333 */
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/banner.png);
+    background-size: cover;
+    width: 100%;
+
+    text-align: center;
+
+  padding-top: 107px;
+    height: 729px;
+
+}
+
+#banner .container h3 {
+    font-size: 30pt;
+    color: #ffff;
+
+}
+
+#banner .container h1 {
+    font-size: 68px;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+#banner .container p {
+    font-size: 18 pt;
+    color: #ffff;
+}
+
+#banner .container a {
+    color: black;
+    display: inline-block;
+    background-color: #cfc91d;
+    padding: 20px 45px;
+    letter-spacing: 5px;
+    font-size: 14pt;
+    transition: 0.5s;
+    font-weight: 800;
+
+
+}
+
+
+#banner .container a:hover {
+    background-color: #7e8287;
+    transform: scale(1.1);
+}
+
+
+/* 3333333333 banner section end 3333333333333333 */
+
+/* ======About section start ====*/
+
+
+.about_me h2 {
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+    margin-top: 96px;
+   
+
+}
+.about_me .p1 {
+    font-size: 16px;
+    margin-top:32px;
+    color: #7e8287;
+}
+
+.about_me .p2 {
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 39px;
+    margin: 49px 0;
+    margin-bottom: 84px;
+  
+}
+
+#about .about_card {
+    padding: 41px;
+    border-right: #7e8287 1px solid;
+    color: #7e8287;
+    text-align: center;
+
+}
+
+#about .about_card h4 {
+    font-weight: 800;
+    font-size: 16px;
+    margin: 28px 0;
+
+
+}
+
+
+
+#about .about_card p {
+    font-size: 11px;
+    line-height: 16.5px;
+    
+
+
+}
+
+#about .about_card:last-child {
+    border: none;
+}
+
+/* ======  baner section_div end ====*/
+
+
+
+
